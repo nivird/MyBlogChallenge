@@ -1,0 +1,12 @@
+
+.toggle-light
+{
+    background-color: bisque;
+    color:green;
+}
+
+.toggle-dark
+{
+    background-color:black;
+    color:azure;
+}
