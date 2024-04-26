@@ -1,3 +1,5 @@
+/*code to activate the toggle button*/
+
 function toggleMode()
 {
     document.body.classList.toggle('toggle-dark');

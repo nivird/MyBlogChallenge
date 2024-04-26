@@ -1,14 +1,14 @@
 :root
 {
-    --top:  rgb(226, 228, 201);
-    --green:  rgb(214, 226, 214);
+    --top:  rgb(215, 219, 172);
+    --text:  rgb(16, 97, 16);
 }
 
 *
 {
     box-sizing: border-box;
 }
-
+/*page body color*/
 body{
     background-color: var(--top);
     margin:0;
@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
     color:rgb(60, 13, 29);
     background-color:rgb(247, 244, 247);
     border-bottom: 10px double;
@@ -33,13 +33,13 @@ h1:hover
 {
     color: rgb(222, 175, 34);
 }
-
+/*toggle display icon */
 .toggle
 {
     position:fixed;
-    top: 10px;
-    right: 100px;
-    z-index: inherit;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
     padding: 10px;
     cursor: pointer;
 }
@@ -51,7 +51,7 @@ main
     display: flex;
     flex-wrap: wrap;
 }
-
+/*blog banner display */
 .banner {
     display: flex;
     /* Align the child elements to the top of the parent */
@@ -74,7 +74,7 @@ main
     margin-left: 3%;
     flex: 0 0 60%;
   }
-
+/*code to display the screen in all the devices*/
 @media screen and (max-width: 768px) {
     main,nav
     {
@@ -82,26 +82,34 @@ main
     }
     
 }
+
+/*code to display the form fields*/
 .container {
     max-width: 1000px;
     margin: auto;
     padding: 150px;
    background-color: #fff;
-   /* border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+   text-align: left;
+   border-left: 10px  double black;
+  
 }
+
+/*code to display the form fields*/
 .form-group {
     margin-bottom: 20px;
+    
 }
 .form-group label {
     display: block;
     margin-bottom: 5px;
+    text-align: left;
 }
 .form-group input[type="text"] {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    text-align: left;
 }
 .btn {
     background-color: #4CAF50;

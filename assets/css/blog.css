@@ -11,6 +11,7 @@ body {
    /* background-color: #fff;*/
     
 }
+/*code to display the received input datas from the index page*/
 .result {
    box-shadow: 2px;
     margin-bottom: 20px;
@@ -42,7 +43,7 @@ p{
     cursor: pointer;
     align-items: right;
 }
-
+/*code to display the back button and toggle button*/
 
 nav{
     text-decoration: none;
@@ -64,7 +65,7 @@ nav{
 h3{
     text-align: center;
 }
-
+/*code to display the p tag data*/
 p{
     text-align: left;
 }
