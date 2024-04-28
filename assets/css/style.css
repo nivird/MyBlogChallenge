@@ -1,8 +1,8 @@
 /*code to display the page in dark and light mode*/
 .toggle-light
 {
-    background-color: bisque;
-    color:rgb(44, 142, 44);
+    background-color: rgb(151, 203, 190);
+    color:rgb(52, 124, 52);
 }
 
 .toggle-dark
