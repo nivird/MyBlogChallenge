@@ -22,7 +22,8 @@ body {
     margin-bottom: 5px;
 }
 .result input[type="text"] {
-    width: 100%;
+    display:inline-block;
+    width: 90%;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;

@@ -1,7 +1,7 @@
 :root
 {
-    --top:  rgb(215, 219, 172);
-    --text:  rgb(16, 97, 16);
+    --top:  rgb(187, 131, 0);
+    --text:  rgb(18, 122, 110);
 }
 
 *
@@ -10,7 +10,7 @@
 }
 /*page body color*/
 body{
-    background-color: var(--top);
+    background-color: var(--text);
     margin:0;
 }
 /* top header tags */
@@ -57,7 +57,7 @@ main
     /* Align the child elements to the top of the parent */
     align-items: flex-start;
     width: 90%;
-    margin: 1% auto;
+   /* margin: 1% auto;*/
   
   }
   
@@ -68,6 +68,7 @@ main
     align-items: center; 
     padding-top: 60px;
     border-radius: 100%;
+    margin: 20%;
   }
   
   .details {
@@ -85,10 +86,10 @@ main
 
 /*code to display the form fields*/
 .container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 150px;
-   background-color: #fff;
+   max-width: 1000px;
+   margin: auto;
+   padding: 150px;
+  /* background-color: #fff;*/
    text-align: left;
    border-left: 10px  double black;
   
